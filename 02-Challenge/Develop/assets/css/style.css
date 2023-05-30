@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
+ /* sets the background color of everything in body*/
 body {
     background-color: #d9dcd6;
 }
 
+/* the header background is blue and the font color is white */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,31 +16,32 @@ body {
     color: #ffffff;
 }
 
+/* gives the h1 header a size font of 48*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the font color very slightly only for the letters s, e, and o in the header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+.header nav li {
     display: inline-block;
     margin-left: 25px;
 }
+
 
 a {
     color: #ffffff;
