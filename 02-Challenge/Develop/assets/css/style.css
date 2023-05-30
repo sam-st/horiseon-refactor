@@ -27,7 +27,7 @@ body {
     color: #d9dcd6;
 }
 
-/*  */
+/* sets up the styling for the header nav section */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,21 +37,24 @@ body {
     list-style-type: none;
 }
 
+/* styles the list */
 .header nav li {
     display: inline-block;
     margin-left: 25px;
 }
 
-
+/* sets any anchor link to white and removes the underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes all paragraph text to 16 size font */
 p {
     font-size: 16px;
 }
 
+/* changes the big picture at the top of the screens styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +62,26 @@ p {
     margin-bottom: 25px;
 }
 
+/* puts the image on the left side with a 25px margin */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* puts the image on the right with a 25px margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* styles the entire section with the articles */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the info on the right side of the screen */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -93,6 +100,7 @@ p {
     color: #ffffff;
 }
 
+/* styles the h3 text */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -100,6 +108,7 @@ p {
     text-align: center;
 }
 
+/* styles the images */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -119,12 +128,14 @@ p {
     color: #ffffff;
 }
 
+/* styles the image */
 .search-engine-optimization img, 
 .online-reputation-management img,
 .social-media-marketing img{
     max-height: 200px;
 }
 
+/* styles the text */
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2{
@@ -132,6 +143,7 @@ p {
     font-size: 36px;
 }
 
+/* styles the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -139,6 +151,7 @@ footer {
     text-align: center;
 }
 
+/* styles the footer text */
 footer h2{
     font-size: 20px;
 }
